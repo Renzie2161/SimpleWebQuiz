@@ -16,7 +16,7 @@ Example Page : **[View Page](https://renzie2161.github.io/SimpleWebQuiz/)**
 1. Clone the repository:
    ```bash
    git clone https://github.com/Renzie2161/SimpleWebQuiz.git
-   cd SimpleQuiz
+   cd SimpleWebQuiz
    ```
 2. **Customize the quiz questions**:
    - Open the `questions.json` file.
