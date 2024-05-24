@@ -81,15 +81,27 @@ function nextQuestion() {
   }
 }
 
+function formatTime(seconds) {
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const remainingSeconds = seconds % 60;
+
+  return `${hours.toString().padStart(2, "0")}:${minutes
+    .toString()
+    .padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`;
+}
+
 function endQuiz() {
   const endTime = new Date();
-  const timeElapsed = ((endTime - startTime) / 1000).toFixed(2); // Time in seconds
+  const timeElapsed = Math.floor((endTime - startTime) / 1000);
   Title.innerText = "Quiz Completed!";
-  const score = (correctAnswers / questions.length) * 100;
+  const score = Math.floor((correctAnswers / questions.length) * 100);
   let resultHTML = `
-    <strong>You got ${correctAnswers} out of ${questions.length} questions correct!</strong><br>
+    <strong>You got ${correctAnswers} out of ${
+    questions.length
+  } questions correct!</strong><br>
     <strong>Score: ${score}/100</strong><br>
-    <strong>Time Elapsed: ${timeElapsed} seconds</strong><br><br>
+    <strong>Time Elapsed: ${formatTime(timeElapsed)} seconds</strong><br><br>
   `;
   if (incorrectAnswers.length != 0) {
     resultHTML += `
