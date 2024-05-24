@@ -1,12 +1,284 @@
 {
   "questions": [
     {
-      "question": "What is the romaji for 愛",
-      "answer": "ai"
+      "question": "What is the pinyin for 长 x 短",
+      "answer": "chang x duan"
     },
     {
-      "question": "What is the romaji for 夢",
-      "answer": "yume"
+      "question": "What is the pinyin for 大 x 小",
+      "answer": "da x xiao"
+    },
+    {
+      "question": "What is the pinyin for 上 x 下",
+      "answer": "shang x xia"
+    },
+    {
+      "question": "What is the pinyin for 高 x 矮",
+      "answer": "gao x ai"
+    },
+    {
+      "question": "What is the pinyin for 男 x 女",
+      "answer": "nan x nu"
+    },
+    {
+      "question": "What is the pinyin for 新 x 旧",
+      "answer": "xin x jiu"
+    },
+    {
+      "question": "What is the pinyin for 多 x 少",
+      "answer": "duo x shao"
+    },
+    {
+      "question": "What is the pinyin for 教 x 学",
+      "answer": "jiao x xue"
+    },
+    {
+      "question": "What is the pinyin for 远 x 近",
+      "answer": "yuan x jin"
+    },
+    {
+      "question": "What is the pinyin for 笑 x 哭",
+      "answer": "xiao x ku"
+    },
+    {
+      "question": "What is the pinyin for 天 x 地",
+      "answer": "tian x di"
+    },
+    {
+      "question": "What is the pinyin for 这 x 哪",
+      "answer": "zhe x na"
+    },
+    {
+      "question": "What is the pinyin for 前 x 后",
+      "answer": "qian x hou"
+    },
+    {
+      "question": "What is the pinyin for 对不起",
+      "answer": "dui bu qi"
+    },
+    {
+      "question": "What is the pinyin for 没关系",
+      "answer": "mei guan xi"
+    },
+    {
+      "question": "What is the pinyin for 不客气",
+      "answer": "bu ke qi"
+    },
+    {
+      "question": "What is the pinyin for 饺子",
+      "answer": "jiao zi"
+    },
+    {
+      "question": "What is the meaning of 卖",
+      "answer": "sell"
+    },
+    {
+      "question": "What is the meaning of 买",
+      "answer": "buy"
+    },
+    {
+      "question": "What is the pinyin for 过年",
+      "answer": "guo nian"
+    },
+    {
+      "question": "What is the pinyin for 新年",
+      "answer": "xin nian"
+    },
+    {
+      "question": "What is the pinyin for 新年好",
+      "answer": "xin nian hao"
+    },
+    {
+      "question": "What is the pinyin for 新年快乐",
+      "answer": "xin nian kuai le"
+    },
+    {
+      "question": "What is the pinyin for 祝贺",
+      "answer": "zhu he"
+    },
+    {
+      "question": "What is the pinyin for 年糕",
+      "answer": "nian gao"
+    },
+    {
+      "question": "What is the pinyin for 红包",
+      "answer": "hong bao"
+    },
+    {
+      "question": "What is the pinyin for 热闹",
+      "answer": "re nao"
+    },
+    {
+      "question": "What is the pinyin for 衣服",
+      "answer": "yi fu"
+    },
+    {
+      "question": "What is the pinyin for 橙子",
+      "answer": "cheng zi"
+    },
+    {
+      "question": "What is the pinyin for 福",
+      "answer": "fu"
+    },
+    {
+      "question": "What is the pinyin for 红色",
+      "answer": "hong se"
+    },
+    {
+      "question": "What is the pinyin for 笔",
+      "answer": "bi"
+    },
+    {
+      "question": "What is the pinyin for 书",
+      "answer": "shu"
+    },
+    {
+      "question": "What is the pinyin for 书包",
+      "answer": "shu bao"
+    },
+    {
+      "question": "What is the pinyin for 铅笔",
+      "answer": "qian bi"
+    },
+    {
+      "question": "What is the pinyin for 钢笔",
+      "answer": "gang bi"
+    },
+    {
+      "question": "What is the pinyin for 白板笔",
+      "answer": "bai ban bi"
+    },
+    {
+      "question": "What is the pinyin for 标记",
+      "answer": "biao ji"
+    },
+    {
+      "question": "What is the pinyin for 橡皮",
+      "answer": "xiang pi"
+    },
+    {
+      "question": "What is the pinyin for 尺子",
+      "answer": "chi zi"
+    },
+    {
+      "question": "What is the pinyin for 磨刀器",
+      "answer": "mo dao qi"
+    },
+    {
+      "question": "What is the pinyin for 铅笔盒",
+      "answer": "qian bi he"
+    },
+    {
+      "question": "What is the pinyin for 课",
+      "answer": "ke"
+    },
+    {
+      "question": "What is the pinyin for 上课",
+      "answer": "shang ke"
+    },
+    {
+      "question": "What is the pinyin for 吧",
+      "answer": "ba"
+    },
+    {
+      "question": "What is the pinyin for 讲",
+      "answer": "jiang"
+    },
+    {
+      "question": "What is the pinyin for 听",
+      "answer": "ting"
+    },
+    {
+      "question": "What is the pinyin for 操场",
+      "answer": "cao chang"
+    },
+    {
+      "question": "What is the pinyin for 动物园",
+      "answer": "dong wu yuan"
+    },
+    {
+      "question": "What is the pinyin for 进",
+      "answer": "jin"
+    },
+    {
+      "question": "What is the pinyin for 问",
+      "answer": "wen"
+    },
+    {
+      "question": "What is the pinyin for 回答",
+      "answer": "hui da"
+    },
+    {
+      "question": "What is the pinyin for 动物",
+      "answer": "dong wu"
+    },
+    {
+      "question": "What is the pinyin for 下课",
+      "answer": "xia ke"
+    },
+    {
+      "question": "What is the pinyin for 来",
+      "answer": "lai"
+    },
+    {
+      "question": "What is the pinyin for 去",
+      "answer": "qu"
+    },
+    {
+      "question": "What is the pinyin for 叉子",
+      "answer": "cha zi"
+    },
+    {
+      "question": "What is the pinyin for 勺子",
+      "answer": "shao zi"
+    },
+    {
+      "question": "What is the pinyin for 筷子",
+      "answer": "kuai zi"
+    },
+    {
+      "question": "What is the pinyin for 杯子",
+      "answer": "bei zi"
+    },
+    {
+      "question": "What is the pinyin for 炒锅",
+      "answer": "chao guo"
+    },
+    {
+      "question": "What is the pinyin for 冰箱",
+      "answer": "bing xiang"
+    },
+    {
+      "question": "What is the pinyin for 电饭锅",
+      "answer": "dian fan guo"
+    },
+    {
+      "question": "What is the pinyin for 刀",
+      "answer": "dao"
+    },
+    {
+      "question": "What is the pinyin for 厨房",
+      "answer": "chu fang"
+    },
+    {
+      "question": "What is the pinyin for 碗",
+      "answer": "wan"
+    },
+    {
+      "question": "What is the pinyin for 加仑水",
+      "answer": "jia lun shui"
+    },
+    {
+      "question": "What is the pinyin for 火",
+      "answer": "huo"
+    },
+    {
+      "question": "What is the pinyin for 火",
+      "answer": "huo"
+    },
+    {
+      "question": "What is the pinyin for 盘子",
+      "answer": "pan zi"
     }
   ]
 }
