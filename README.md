@@ -6,7 +6,7 @@
 
 Simple Quiz (Web Ver.) is a straightforward quiz program designed to run in a web browser. Users can open the `index.html` file to start the quiz. The program reads questions from a `questions.json` file and prompts the user to answer them.
 
-Example Page : <strong><a href="www.renzie2161.github.io" target="_blank">View Page</a></strong>
+Example Page : <strong><a href="http://www.renzie2161.github.io" target="_blank">View Page</a></strong>
 
 > [!IMPORTANT]
 > This program is no longer actively maintained or supported. Feel free to use it as-is, but there may be bugs or issues that have not been addressed. Consider using alternative solutions for similar functionality.
