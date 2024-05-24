@@ -45,7 +45,7 @@ function checkAnswer() {
     Feedback.innerHTML = "<strong>Correct!</strong>";
     Feedback.style.color = "green";
     correctAnswers++;
-    setTimeout(nextQuestion, 1000);
+    setTimeout(nextQuestion, 500);
   } else {
     incorrectAnswers.push({
       question: questions[currentQuestion].question,
@@ -79,15 +79,18 @@ function endQuiz() {
     <strong>You got ${correctAnswers} out of ${questions.length} questions correct!</strong><br>
     <strong>Score: ${score}/100</strong><br>
     <strong>Time Elapsed: ${timeElapsed} seconds</strong><br><br>
-    <h2>Incorrect Answers:</h2>
-    <ul>
   `;
-  incorrectAnswers.forEach((item) => {
-    resultHTML += `<li><strong>Question:</strong> ${item.question}<br>
-    <strong>Your Answer:</strong> ${item.userAnswer}<br>
-    <strong>Correct Answer:</strong> ${item.correctAnswer}</li><br>`;
-  });
-  resultHTML += `</ul>`;
+  if (incorrectAnswers.length != 0) {
+    resultHTML += `
+    <h2>Incorrect Answers:</h2>
+    <ul>`;
+    incorrectAnswers.forEach((item) => {
+      resultHTML += `<li><strong>Question:</strong> ${item.question}<br>
+      <strong>Your Answer:</strong> ${item.userAnswer}<br>
+      <strong>Correct Answer:</strong> ${item.correctAnswer}</li><br>`;
+    });
+    resultHTML += `</ul>`;
+  }
   QuestionContainer.innerHTML = resultHTML;
   SubmitBtn.style.display = "none";
   InputField.style.display = "none";
@@ -95,5 +98,10 @@ function endQuiz() {
   NextBtn.style.display = "none";
 }
 
+InputField.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    checkAnswer();
+  }
+});
 SubmitBtn.addEventListener("click", checkAnswer);
 NextBtn.addEventListener("click", nextQuestion);
