@@ -11,10 +11,21 @@ let questions = [];
 let incorrectAnswers = [];
 let startTime;
 
+function Shuffle(array) {
+  for (let currentIndex = array.length - 1; currentIndex > 0; currentIndex--) {
+    const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+  return array;
+}
+
 fetch("questions.json")
   .then((response) => response.json())
   .then((data) => {
-    questions = data.questions;
+    questions = Shuffle(data.questions);
     startTime = new Date();
     showQuestion();
   })
